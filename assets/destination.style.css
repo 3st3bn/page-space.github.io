@@ -15,33 +15,99 @@ body{
     
 }
 #content{
+    width: 100%;
+    height: 764px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+#imagen{
+    margin-top: 76px;
+    margin-left: 167px;
+}
+#imagen h3{
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#imagen h3 b{
+    mix-blend-mode: normal;
+    opacity: 0.25; 
+}
+#imagen img{
+    margin-top: 97px;
+    margin-left: 39px;
+    width: 445px;
+    height: 445px;
+}
+#info{
+    width: 445px;
+    height: 472px;
+    margin-top: 174px;
+    margin-left: 67px;
+}
+#info #menu2{
+    list-style: none;
     display: flex;
+    width: 100%;
+    height: 34px;
+    margin-left: 0;
     justify-content: space-between;
 }
-#content #izquierda{
-    color: white;
-    width: 60%;
+#menu2 li a{
+    display: block;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #FFFFFF;
+    text-decoration: none;
+    height: 100%;
 }
-#izquierda #luna{
-    margin-top: 90px;
-    margin-left: 60px;
+#titu{
+    margin: 37px 0;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }
-#content #derecha{
+#informa{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #D0D6F9;
+    width: 100%;
+}
+#linea{
+    position: absolute;
+    top: 880px;
+    left: 1016px;
+    width: 500px;
+    height: 1px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+#datos{
+    margin-top: 28px;
+    margin-left: 688px;
+    width: 100%;
     display: flex;
+    color:#FFFFFF ;
+    justify-content: space-around;
 }
-#derecha li{
-    padding: 40px 5px;
-}
-#derecha li a{
-    text-decoration: none ;
-    color: white;
-    font-size: 22px;
-}
-#derecha li a:hover{
-    color: rgb(91, 165, 42);
-    border-bottom:2px solid white;  
-    padding: 40px 5px;
-}
-#derecha li:nth-child(1){
-    border-bottom:2px solid white; 
-}
+
+
+
+
