@@ -12,7 +12,7 @@ body{
 #container{
     margin: 0 auto;
     width: 80%;
-    
+    background-color: aqua;
 }
 #content{
     width: 100%;

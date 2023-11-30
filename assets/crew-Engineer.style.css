@@ -95,4 +95,10 @@ body{
     height: 100%;
     display: block;
 }
+#imagen img{
+    margin-top: 73px;
+    margin-left: 28px;
+    width: 568.07px;
+    height: 712px;
+}
 
