@@ -24,7 +24,6 @@ body{
     margin-left: 167px;
 }
 #imagen h3{
-    font-family: 'Barlow Condensed';
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
@@ -62,7 +61,6 @@ body{
 }
 #menu2 li a{
     display: block;
-    font-family: 'Barlow Condensed';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -74,7 +72,6 @@ body{
 }
 #titu{
     margin: 37px 0;
-    font-family: 'Bellefair';
     font-style: normal;
     font-weight: 400;
     font-size: 100px;
@@ -83,7 +80,6 @@ body{
     text-transform: uppercase;
 }
 #informa{
-    font-family: 'Barlow';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
