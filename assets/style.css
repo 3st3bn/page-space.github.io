@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    background-image: url("/home/background-home-desktop.jpg");
+    background-image: url("./home/background-home-desktop.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     min-height: 1024px;
@@ -20,37 +20,7 @@ hr{
     width: 80%;
     
 }
-/* header{
-    display: flex;
-    justify-content: space-between;
-    margin: 30px;
-}
-header #menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgba(11, 0, 0,0.2 );
-    height: 40px;
-}
-#menu{
-    width: 45%;
-    list-style: none;
-}
-#menu li{
-    padding: 40px 5;
-}
-#menu li a{
-     text-decoration: none ;
-     color: white;
-     
-}
-#menu li a:hover{
-    color: rgb(91, 165, 42);
-}
-#menu li:nth-child(1){
-    border-bottom:2px solid white;
-      
-} */
+
 #content{
     display: flex;
 }
